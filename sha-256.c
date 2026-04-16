@@ -196,7 +196,7 @@ uint8_t *sha_256_close(struct Sha_256 *sha_256)
 	const size_t left = space_left - TOTAL_LEN_LEN;
 	memset(pos, 0x00, left);
 	pos += left;
-	uint64_t len = sha_256->total_len;
+	uint32_t len = sha_256->total_len;
 	pos[7] = (uint8_t)(len << 3);
 	len >>= 5;
 	int i;
