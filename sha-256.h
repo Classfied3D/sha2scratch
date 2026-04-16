@@ -32,7 +32,7 @@ struct Sha_256 {
 	uint8_t chunk[SIZE_OF_SHA_256_CHUNK];
 	uint8_t *chunk_pos;
 	size_t space_left;
-	uint64_t total_len;
+	uint32_t total_len;
 	uint32_t h[8];
 };
 
