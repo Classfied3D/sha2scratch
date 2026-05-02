@@ -4,7 +4,8 @@
 
 ## SHA256 port to scratch
 
-https://scratch.mit.edu/projects/1308874118/
+New optimized version: https://scratch.mit.edu/projects/1314935655
+Old version: https://scratch.mit.edu/projects/1308874118/
 
 For text version of code (less laggy), see [releases tab](https://github.com/Classfied3D/sha2scratch/releases)
 
