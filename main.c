@@ -1,4 +1,3 @@
-#include <stdint.h>
 #include "sha-256.h"
 #include "sb3api.h"
 
