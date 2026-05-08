@@ -69,6 +69,7 @@ int main(void) {
 
     } else {
       SB3_say_str("Running...");
+      SB3_render(); // Render the text bubble
 
       double start = SB3_days_since_2000();
       volatile uint8_t sink = 0;
