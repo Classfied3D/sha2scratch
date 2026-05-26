@@ -1,7 +1,7 @@
 #include "sha-256.h"
 #include "sb3api.h"
 
-#define NUM_EXECS 100
+#define NUM_EXECS 500
 const char* TEST_STR = "hello world";
 
 char convert_hex_nibble(uint8_t in) {
